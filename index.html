@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wie man Toasts erstellt</title>
+		<link rel="stylesheet" href="toasts.css" />
+		<script src="toasts.js" defer></script>
+	</head>
+	<body>
+		<button type="button" onclick="alleToastsEinblenden()">
+			Toasts anzeigen!
+		</button>
+
+		<div class="toast-behaelter">
+			<div class="toast" data-anzeigedauer="2000">
+				Das ist unglaublich wichtige Nachricht Nr. 1!
+			</div>
+			<div class="toast" data-anzeigedauer="4000">
+				Das ist unglaublich wichtige Nachricht Nr. 2!
+			</div>
+			<div class="toast" data-anzeigedauer="6000">
+				Das ist unglaublich wichtige Nachricht Nr. 3!
+			</div>
+		</div>
+	</body>
+</html>
